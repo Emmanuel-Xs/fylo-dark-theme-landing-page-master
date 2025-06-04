@@ -243,10 +243,22 @@
             would be happy to help you.
           </p>
           <form class="cta-form">
-            <input type="email" placeholder="email@example.com" required />
-            <button type="submit" class="btn btn-primary cta-btn">
-              Get Started For Free
-            </button>
+            <div class="cta-form-container">
+              <div class="email-input">
+                <input type="email" placeholder="email@example.com" required />
+                <span
+                  data-error="Please enter a valid email address"
+                  class="error-mobile"
+                ></span>
+              </div>
+              <button type="submit" class="btn btn-primary cta-btn">
+                Get Started For Free
+              </button>
+            </div>
+            <span
+              data-error="Please enter a valid email address"
+              class="error-desktop"
+            ></span>
           </form>
         </div>
       </article>
