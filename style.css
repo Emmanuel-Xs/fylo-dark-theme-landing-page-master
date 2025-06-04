@@ -360,7 +360,7 @@ ul {
   display: flex;
   align-items: center;
   width: max-content;
-  border-bottom: 1px solid var(--accent-color-blue);
+  border-bottom: 1px solid var(--accent-color-cyan);
   color: var(--accent-color-cyan);
   font-weight: 500;
   gap: 4px;
@@ -530,7 +530,7 @@ ul {
     color: var(--primary-color-intro-email);
     text-align: left;
     border: none;
-    outline-color: var(--accent-color-blue);
+    outline-color: var(--accent-color-cyan);
   }
 
   .cta-btn {
@@ -664,5 +664,5 @@ footer {
   margin-top: 2em;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--accent-color-cyan);
 }
